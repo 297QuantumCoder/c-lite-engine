@@ -1,4 +1,5 @@
 
+
 ### C-Lite Engine
 
 #### Overview
@@ -33,22 +34,48 @@ printf("New value of a is: %d", a);
 This code will declare three integers, calculate their sum, print the result, read a new value for `a` from the user, and then print the updated value of `a`.
 
 #### Getting Started
-1. **Installation**: Clone the repository and navigate to the project directory. Ensure you have Node.js installed on your system.
-2. **Running the Interpreter**: Use the following command to start the interpreter:
+
+1. **Clone the Repository**:
+   To get a local copy of the project up and running, you can clone the repository using the following command:
+   ```bash
+   git clone https://github.com/297QuantumCoder/c-lite-engine.git
+   ```
+
+2. **Installation**:
+   Navigate to the project directory and install the necessary dependencies:
+   ```bash
+   cd c-lite-engine
+   npm install
+   ```
+   Ensure you have Node.js installed on your system.
+
+3. **Running the Interpreter**:
+   Start the interpreter by executing the following command:
    ```bash
    node final.js
    ```
    You will be prompted to enter C statements. Type `exit` to terminate the interpreter.
 
-#### Dependencies
-- **chalk**: For colored console output.
-- **readline**: For reading user input in an interactive command-line interface.
-- **fs**: For potential file handling (not used in the basic interpreter).
+#### Contributions
 
-#### Future Enhancements
-- Expand the supported C syntax (e.g., adding loops, conditionals).
-- Implement more sophisticated error handling and debugging features.
-- Add support for additional data types and complex expressions.
+Contributions are welcome! If you have any suggestions for improvements or new features, feel free to open an issue or submit a pull request. Here’s how you can contribute:
+
+1. **Fork the Project**: Click on the "Fork" button on the top right corner of the repository page.
+2. **Create a New Branch**: Create a branch for your feature or bug fix.
+   ```bash
+   git checkout -b feature/new-feature
+   ```
+3. **Make Your Changes**: Implement your feature or fix the bug.
+4. **Commit Your Changes**: Commit your changes with a meaningful message.
+   ```bash
+   git commit -m 'Add some feature'
+   ```
+5. **Push to the Branch**: Push your changes to your forked repository.
+   ```bash
+   git push origin feature/new-feature
+   ```
+6. **Create a Pull Request**: Open a pull request against the main repository's `main` branch.
+
+We appreciate your efforts in making this project better!
 
 ---
-
